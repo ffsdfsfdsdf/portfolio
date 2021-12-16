@@ -622,9 +622,10 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff;
+		background: rgba(255, 255, 255, 0.8);
 		color: #39454b;
 		padding: 2em;
+		
 	}
 
 		.box > :last-child {
@@ -991,22 +992,22 @@ input, select, textarea {
 			opacity: 1;
 		}
 		.gallery article:nth-child(1) .image::after{
-			content: "부산IT 웹디자인";
-		}
-		.gallery article:nth-child(2) .image::after{
-			content: "CZ 웹디자인";
-		}
-		.gallery article:nth-child(3) .image::after{
-			content: "지니뮤직 디자인";
-		}
-		.gallery article:nth-child(4) .image::after{
-			content: "CZ 웹디자인2";
-		}
-		.gallery article:nth-child(5) .image::after{
 			content: "카드뉴스";
 		}
-		.gallery article:nth-child(6) .image::after{
+		.gallery article:nth-child(2) .image::after{
 			content: "명함 디자인";
+		}
+		.gallery article:nth-child(3) .image::after{
+			content: "부산IT 웹디자인";
+		}
+		.gallery article:nth-child(4) .image::after{
+			content: "지니뮤직 디자인";
+		}
+		.gallery article:nth-child(5) .image::after{
+			content: "CZ 웹디자인2";
+		}
+		.gallery article:nth-child(6) .image::after{
+			content: "CZ 웹디자인";
 		}
 
 		.image img {
@@ -2002,7 +2003,7 @@ input, select, textarea {
 		}
 
 			.main.style1 h2 {
-				font-size: 3.5em;
+				font-size: 4.5em;
 				line-height: 1em;
 			}
 
@@ -2035,6 +2036,7 @@ input, select, textarea {
 			padding: 3em 0 3em 0;
 			overflow: hidden;
 		}
+
 
 			.main.style2 > .content {
 				-moz-transition: -moz-transform 1s ease;
@@ -2126,7 +2128,7 @@ input, select, textarea {
 		@media screen and (max-width: 1920px) {
 
 			.main.style2 .content {
-				width: 40%;
+				width: 60%;
 				position: relative;
 			}
 			.ul_box{display: flex;}
@@ -2143,10 +2145,11 @@ input, select, textarea {
 			.skill_box .progress_bar span{background-color: #0058fc; display: block; height: 100%;}
 		}
 
+		
 		@media screen and (max-width: 1280px) {
 
 			.main.style2 .content {
-				width: 50%;
+				width: 60%;
 			}
 
 		}

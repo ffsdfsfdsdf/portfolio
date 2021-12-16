@@ -1,0 +1,21 @@
+@charset "utf-8";
+#one .content{border-radius: 2em 0 0 2em;}
+#two .content{border-radius: 0 2em 2em 0;}
+#intro .content header h2{font-size: 3rem; text-align: justify; line-height: 2;}
+#intro footer{margin-top: 17rem;}
+#one .content a{text-decoration: none; font-weight: bold; font-size: 20px; position: relative;}
+#one .content a img{height: 25px; position: absolute; right: -40px; bottom: 0;}
+
+#one .content ul{margin-bottom: 40px; font-weight: 500;}
+#one .content ul > li{display: flex;}
+#one .content ul > li > div{margin-right: 20px;}
+#one .content ul > li > .name{margin-right: 70px;}
+#one .content ul > li > div:nth-child(2n){margin-right: 0;}
+#one .content h2{margin-bottom: 40px;}
+
+
+@media screen and (max-width: 736px){
+  #one .content{border-radius: 2em;}
+  #two .content{border-radius: 2em;}
+  #intro .content header h2{font-size: 2rem;}
+}
