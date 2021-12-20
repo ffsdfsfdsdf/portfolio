@@ -2131,18 +2131,7 @@ input, select, textarea {
 				width: 60%;
 				position: relative;
 			}
-			.ul_box{display: flex;}
-			.ul_box ul{margin-right: 20px;}
-			.ul_box .skill_bar{padding-top: 10px;}
-			.ul_box .skill_bar li{width: 200px; background-color: #333; height: 20px; margin-bottom: 15px;
-			 }
-			
-			.ul_box .skill_bar li span{background-color: #0082fb; width: 50px; height: 15px;
-			display: block; margin: 10px;}
-
-			.skill_box li{font-weight: 500; font-size: 1.3rem;}
-			.skill_box .progress_bar{background-color: #febd3f; height: 22px; margin-bottom: 15px; width: 250px; padding: 4px;}
-			.skill_box .progress_bar span{background-color: #0058fc; display: block; height: 100%;}
+		
 		}
 
 		

@@ -14,6 +14,13 @@
 #one .content h2{margin-bottom: 40px;}
 
 
+#two .content header h2{margin-bottom: 40px;}
+#two .content ul li{font-weight: bold; color: #555;}
+.skill_box .progress_bar{background-color: royalblue; height: 17px; width: 50%; margin-bottom: 10px;
+border: 1px solid #333;}
+.skill_box .progress_bar span{background-color: #ddd; display: block; height: 100%;}
+.main.style3{padding: 3em 0 3em 0;}
+
 @media screen and (max-width: 736px){
   #one .content{border-radius: 2em;}
   #two .content{border-radius: 2em;}
