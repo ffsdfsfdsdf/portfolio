@@ -1,8 +1,15 @@
 @charset "utf-8";
 #one .content{border-radius: 2em 0 0 2em;}
 #two .content{border-radius: 0 2em 2em 0;}
-#intro .content header h2{font-size: 3rem; text-align: justify; line-height: 2;}
-#intro footer{margin-top: 17rem;}
+#intro .content header h2{font-size: 3.8rem; text-align: justify; margin-bottom: 7rem;
+padding-top: 2rem;}
+#intro .content header p{text-align: justify; font-weight: bold; font-size: 1.6rem;
+padding-bottom: 0; margin-top: 0;  line-height: 2;}
+#intro .content header p span{color: yellow;}
+footer{margin-top: 0;}
+
+
+
 #one .content a{text-decoration: none; font-weight: bold; font-size: 20px; position: relative;}
 #one .content a img{height: 25px; position: absolute; right: -40px; bottom: 0;}
 
@@ -10,6 +17,7 @@
 #one .content ul > li{display: flex;}
 #one .content ul > li > div{margin-right: 20px;}
 #one .content ul > li > .name{margin-right: 70px;}
+#one .content ul > li span{font-weight: 600;}
 #one .content ul > li > div:nth-child(2n){margin-right: 0;}
 #one .content h2{margin-bottom: 40px;}
 
@@ -20,6 +28,10 @@
 border: 1px solid #333;}
 .skill_box .progress_bar span{background-color: #ddd; display: block; height: 100%;}
 .main.style3{padding: 3em 0 3em 0;}
+
+input[type="button"].down, input[type="submit"].down, input[type="reset"].down, .button.down, button.down{
+  width: 4em; height: 4em;
+}
 
 @media screen and (max-width: 736px){
   #one .content{border-radius: 2em;}
