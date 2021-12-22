@@ -58,7 +58,7 @@ input[type="button"].down, input[type="submit"].down, input[type="reset"].down, 
 
 
 
-@media screen and (min-width:400px) and (max-width: 736px){
+@media screen and (min-width:400px) and (max-width: 877px){
   
   #one .content{border-radius: 2em;}
   #two .content{border-radius: 2em;}
@@ -76,7 +76,7 @@ input[type="button"].down, input[type="submit"].down, input[type="reset"].down, 
 }
 
 
-@media screen and (min-width: 736px) and (max-width: 1200px){
+@media screen and (min-width: 877px) and (max-width: 1200px){
   .main.dark .button.style2.down{background-size: 40px auto;}
   #intro .content header h2{font-size: 4rem;}
   #intro .content header p{font-size: 2rem;}
