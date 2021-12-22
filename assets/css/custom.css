@@ -43,6 +43,7 @@ input[type="button"].down, input[type="submit"].down, input[type="reset"].down, 
 .main.style3.secondary{background: url(../../images/footerimg.jpg) no-repeat center / cover;}
 
 #contact header p{font-size: 1.5rem;}
+.main.style3.primary{background: url(../../images/workimg.jpg) no-repeat center / cover;}
 
 @media screen and (max-width: 480px){
   #intro .content header h2{font-size: 2rem;}
