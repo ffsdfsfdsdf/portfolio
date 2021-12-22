@@ -93,7 +93,7 @@ input, select, textarea {
 	body {
 		background: #ffffff;
 		height: 100%;
-		min-width: 320px;
+		min-width: 320px; 
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2119,6 +2119,8 @@ input, select, textarea {
 
 				.main.dark .button.style2.down {
 					background-image: url("images/dark-arrow.svg");
+					background-size: 50px auto;
+					
 				}
 
 		body.is-touch .main {
