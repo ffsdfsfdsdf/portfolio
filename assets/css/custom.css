@@ -40,8 +40,11 @@ input[type="button"].down, input[type="submit"].down, input[type="reset"].down, 
 #contact .content .box ul li{text-align: left; padding-left: 10rem;}
 #contact .content .box ul li span{font-weight: bold;}
 
+.main.style3.secondary{background: url(../../images/footerimg.jpg) no-repeat center / cover;}
 
-@media screen and (max-width: 400px){
+#contact header p{font-size: 1.5rem;}
+
+@media screen and (max-width: 480px){
   #intro .content header h2{font-size: 2rem;}
   #intro .content header p{font-size: 1.3rem;}
   #intro .content header p span{font-size: 1.6rem;}
@@ -54,11 +57,13 @@ input[type="button"].down, input[type="submit"].down, input[type="reset"].down, 
   #one .content ul > li{display: block;}
   #contact .content .box ul li{padding-left: 0;}
   #two .content ul li{text-align: left;}
+  #contact header p{font-size: 0.9rem;}
+
 }
 
 
 
-@media screen and (min-width:400px) and (max-width: 877px){
+@media screen and (min-width:480px) and (max-width: 920px){
   
   #one .content{border-radius: 2em;}
   #two .content{border-radius: 2em;}
@@ -73,17 +78,18 @@ input[type="button"].down, input[type="submit"].down, input[type="reset"].down, 
   #one .content ul > li{display: block;}
   #one .content ul{text-align: left;}
   #contact .content .box ul li{padding-left: 0;}
+  #contact header p{font-size: 1.1rem;}
+
 }
 
 
-@media screen and (min-width: 877px) and (max-width: 1200px){
+@media screen and (min-width: 920px) and (max-width: 1420px){
   .main.dark .button.style2.down{background-size: 40px auto;}
   #intro .content header h2{font-size: 4rem;}
   #intro .content header p{font-size: 2rem;}
   #intro .content header p span{font-size: 3rem;}
+  #contact header p{font-size: 1.3rem;}
 }
 
-@media screen and (min-width: 1200px){
 
-}
 
