@@ -28,9 +28,9 @@ footer{margin-top: 0;}
 
 #two .content ul li{font-weight: bold; color: #555;}
 #two h2{margin-bottom: 3rem;}
-.skill_box .progress_bar{background-color: royalblue; height: 17px; width: 50%; margin-bottom: 10px;
+.skill_box .progress_bar{background-color: #fff; height: 17px; width: 50%; margin-bottom: 10px;
 border: 1px solid #333;}
-.skill_box .progress_bar span{background-color: #ddd; display: block; height: 100%;}
+.skill_box .progress_bar span{background-color: royalblue; display: block; height: 100%;}
 .main.style3{padding: 3em 0 3em 0;}
 .main.dark .button.style2{border-width: 4px;}
 
@@ -44,6 +44,12 @@ input[type="button"].down, input[type="submit"].down, input[type="reset"].down, 
 
 #contact header p{font-size: 1.5rem;}
 .main.style3.primary{background: url(../../images/workimg.jpg) no-repeat center / cover;}
+
+.poptrox-popup .nav-next, .poptrox-popup .nav-previous{height: 0; width: 0;}
+.poptrox-popup .nav-previous:before{display: none;}
+.poptrox-popup .nav-next:before{display: none;}
+.poptrox-popup .closer:before{display: none;}
+
 
 @media screen and (max-width: 480px){
   #intro .content header h2{font-size: 2rem;}
