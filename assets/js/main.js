@@ -77,38 +77,63 @@
 		}
 
 	// Gallery.
-		$window.on('load', function() {
+		// $window.on('load', function() {
 
-			var $gallery = $('.gallery');
+		// 	var $gallery = $('.gallery');
 
-			$gallery.poptrox({
-				baseZIndex: 10001,
-				useBodyOverflow: true,
-				usePopupEasyClose: false,
-				overlayColor: '#1f2328',
-				overlayOpacity: 0.65,
-				usePopupDefaultStyling: false,
-				usePopupCaption: false,
-				popupLoaderText: '',
-				windowMargin: 50,
-				caption:					null,	
-				usePopupNav: true
-			});
+		// 	$gallery.poptrox({
+		// 		baseZIndex: 10001,
+		// 		useBodyOverflow: true,
+		// 		usePopupEasyClose: false,
+		// 		overlayColor: '#1f2328',
+		// 		overlayOpacity: 0.65,
+		// 		usePopupDefaultStyling: false,
+		// 		usePopupCaption: false,
+		// 		popupLoaderText: '',
+		// 		windowMargin: 50,
+		// 		caption:					null,	
+		// 		usePopupNav: true
+		// 	});
 
-			// Hack: Adjust margins when 'small' activates.
-				breakpoints.on('>small', function() {
-					$gallery.each(function() {
-						$(this)[0]._poptrox.windowMargin = 50;
-					});
-				});
+		// 	// Hack: Adjust margins when 'small' activates.
+		// 		breakpoints.on('>small', function() {
+		// 			$gallery.each(function() {
+		// 				$(this)[0]._poptrox.windowMargin = 50;
+		// 			});
+		// 		});
 
-				breakpoints.on('<=small', function() {
-					$gallery.each(function() {
-						$(this)[0]._poptrox.windowMargin = 5;
-					});
-				});
+		// 		breakpoints.on('<=small', function() {
+		// 			$gallery.each(function() {
+		// 				$(this)[0]._poptrox.windowMargin = 5;
+		// 			});
+		// 		});
 
+		// });
+
+		/*갤러리 팝업*/ 
+		$("body").append("<div id='glayLayer'></div><div id='overLayer'></div>");
+		$(".gallery a").click(function(){
+			 event.preventDefault();
+			 $("body").css({
+					'overflow':'hidden',
+					'height':'100vh'
+			 });
+
+			 $("#glayLayer").show().html("<p class='close'>X</p>");
+			 $("#overLayer").show().html("<img src='" + $(this).attr("href") + "' alt='이미지'>");
 		});
+
+		$("#glayLayer,#overLayer").click(function(){
+			 //alert();
+			 $("#glayLayer").hide();
+			 $("#overLayer").hide();
+			 $("body").css({
+					'overflow':'scroll',
+					// 'height':'auto'
+			 });
+			 return this;
+		});
+
 
 	// Section transitions.
 		if (browser.canUse('transition')) {
